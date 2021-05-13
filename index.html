@@ -9,8 +9,7 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous"/>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
@@ -18,14 +17,178 @@
     ></script>
   </head>
   <body>
-    <div class="d-flex justify-content-center">
-      <span class="d-block p-2 bg-dark text-white"
-        >This is a JavaScript Fundementals Quiz. Once Begin Quiz is pressed the
-        timer will start. Good Luck!</span
-      >
+    <div id="button" class="d-flex justify-content-center">
+      <button type="button" class="btn btn-primary btn-lg">Begin Quiz</button>
+      <h3>Seconds left: <span id="time-left">30</span></h3>
     </div>
-    <div class="d-flex justify-content-center">
-      <button id="begin" type="button" class="btn btn-primary btn-lg">Begin Quiz</button>
+    <div id="countdowntimer"><span id="future_date"><span></div>
+    <div class="container-fluid">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3>Q. What does CSS stands for?</h3>
+          </div>
+          <div class="modal-body">
+            <div class="col-xs-3 5"></div>
+            <div class="quiz" id="quiz" data-toggle="buttons">
+              <label class="element-animation1 btn btn-lg btn-danger btn-block"
+                ><span class="btn-label"
+                  ><i class="glyphicon glyphicon-chevron-right"></i
+                ></span>
+                <input type="radio" name="q_answer" value="1" /> Computer Style
+                Sheets</label
+              >
+              <label class="element-animation2 btn btn-lg btn-danger btn-block"
+                ><span class="btn-label"
+                  ><i class="glyphicon glyphicon-chevron-right"></i
+                ></span>
+                <input type="radio" name="q_answer" value="2" />Cascading Style
+                Sheets</label
+              >
+              <label class="element-animation3 btn btn-lg btn-danger btn-block"
+                ><span class="btn-label"
+                  ><i class="glyphicon glyphicon-chevron-right"></i
+                ></span>
+                <input type="radio" name="q_answer" value="3" />Creative Style
+                Sheets</label
+              >
+              <label class="element-animation4 btn btn-lg btn-danger btn-block"
+                ><span class="btn-label"
+                  ><i class="glyphicon glyphicon-chevron-right"></i
+                ></span>
+                <input type="radio" name="q_answer" value="4" /> Colorful Style
+                Sheets
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3>Q. What does CSSw3 stands for?</h3>
+          </div>
+          <div class="modal-body">
+            <div class="col-xs-3 5"></div>
+            <div class="quiz" id="quiz2" data-toggle="buttons">
+              <label class="element-animation1 btn btn-lg btn-danger btn-block"
+                ><span class="btn-label"
+                  ><i class="glyphicon glyphicon-chevron-right"></i
+                ></span>
+                <input type="radio" name="q_answer" value="1" /> Computer Style
+                Sheets</label
+              >
+              <label class="element-animation2 btn btn-lg btn-danger btn-block"
+                ><span class="btn-label"
+                  ><i class="glyphicon glyphicon-chevron-right"></i
+                ></span>
+                <input type="radio" name="q_answer" value="2" />Cascading Style
+                Sheets</label
+              >
+              <label class="element-animation3 btn btn-lg btn-danger btn-block"
+                ><span class="btn-label"
+                  ><i class="glyphicon glyphicon-chevron-right"></i
+                ></span>
+                <input type="radio" name="q_answer" value="3" />Creative Style
+                Sheets</label
+              >
+              <label class="element-animation4 btn btn-lg btn-danger btn-block"
+                ><span class="btn-label"
+                  ><i class="glyphicon glyphicon-chevron-right"></i
+                ></span>
+                <input type="radio" name="q_answer" value="4" /> Colorful Style
+                Sheets
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid3">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3>Q. What does CSSw34 stands for?</h3>
+          </div>
+          <div class="modal-body">
+            <div class="col-xs-3 5"></div>
+            <div class="quiz" id="quiz3" data-toggle="buttons">
+              <label class="element-animation1 btn btn-lg btn-danger btn-block"
+                ><span class="btn-label"
+                  ><i class="glyphicon glyphicon-chevron-right"></i
+                ></span>
+                <input type="radio" name="q_answer" value="1" /> Computer Style
+                Sheets</label
+              >
+              <label class="element-animation2 btn btn-lg btn-danger btn-block"
+                ><span class="btn-label"
+                  ><i class="glyphicon glyphicon-chevron-right"></i
+                ></span>
+                <input type="radio" name="q_answer" value="2" />Cascading Style
+                Sheets</label
+              >
+              <label class="element-animation3 btn btn-lg btn-danger btn-block"
+                ><span class="btn-label"
+                  ><i class="glyphicon glyphicon-chevron-right"></i
+                ></span>
+                <input type="radio" name="q_answer" value="3" />Creative Style
+                Sheets</label
+              >
+              <label class="element-animation4 btn btn-lg btn-danger btn-block"
+                ><span class="btn-label"
+                  ><i class="glyphicon glyphicon-chevron-right"></i
+                ></span>
+                <input type="radio" name="q_answer" value="4" /> Colorful Style
+                Sheets
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid4">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3>Q. What does CSSw345 stands for?</h3>
+          </div>
+          <div class="modal-body">
+            <div class="col-xs-3 5"></div>
+            <div class="quiz" id="quiz4" data-toggle="buttons">
+              <label class="element-animation1 btn btn-lg btn-danger btn-block"
+                ><span class="btn-label"
+                  ><i class="glyphicon glyphicon-chevron-right"></i
+                ></span>
+                <input type="radio" name="q_answer" value="1" /> Computer Style
+                Sheets</label
+              >
+              <label class="element-animation2 btn btn-lg btn-danger btn-block"
+                ><span class="btn-label"
+                  ><i class="glyphicon glyphicon-chevron-right"></i
+                ></span>
+                <input type="radio" name="q_answer" value="2" />Cascading Style
+                Sheets</label
+              >
+              <label class="element-animation3 btn btn-lg btn-danger btn-block"
+                ><span class="btn-label"
+                  ><i class="glyphicon glyphicon-chevron-right"></i
+                ></span>
+                <input type="radio" name="q_answer" value="3" />Creative Style
+                Sheets</label
+              >
+              <label class="element-animation4 btn btn-lg btn-danger btn-block"
+                ><span class="btn-label"
+                  ><i class="glyphicon glyphicon-chevron-right"></i
+                ></span>
+                <input type="radio" name="q_answer" value="4" /> Colorful Style
+                Sheets
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="./script.js"></script>
